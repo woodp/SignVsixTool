@@ -1,8 +1,8 @@
 #Sign Vsix Tool
 
-This is a tool for signing vsix packages (Visual Studio Extension)
+This is a tool for signing vsix packages (Visual Studio extension packages)
 
-A vsix cannot be signed with the SignTool.exe.
+A vsix cannot be signed with SignTool.exe
 
 Reference links:
 
