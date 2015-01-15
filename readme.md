@@ -1,8 +1,14 @@
 #Sign Vsix Tool
 
-This is a tool for signing vsix packages (Visual Studio extension packages)
+This is a command line tool for signing vsix (Visual Studio extension) packages
 
-A vsix cannot be signed with SignTool.exe
+Usage:
+
+SignVsixTool <<path/to/vsix>> <<path/to/pfx>> <password (optional)>
+
+e.g.
+
+SignVsixTool CoolExtension.vsix CompanySignature.pfx MySuperSecretPassword
 
 Reference links:
 
