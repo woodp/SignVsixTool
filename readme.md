@@ -4,7 +4,7 @@ This is a command line tool for signing vsix (Visual Studio extension) packages
 
 Usage:
 
-SignVsixTool <<path/to/vsix>> <<path/to/pfx>> <password (optional)>
+SignVsixTool [path/to/vsix] [path/to/pfx] [password (optional)]
 
 e.g.
 
